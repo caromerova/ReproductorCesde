@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    
+    <title>Reproductor</title>
+</head>
+
+<body>
+    <!--inicio header-->
+
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+        <nav id="masmelo" class="navbar navbar-expand-lg navbar-dark ">
+            <a class="navbar-brand" href="#"> <img src="/imagenes/masmelo.jpeg" alt="">
+            </a>
+        </nav>
+        
+            Reproductor De Musica Cesde
+        </a>
+
+        <div class="col">
+            Alexis Romero
+            <span class="intentos"></span>
+        </div>
+
+        <div class="row justify-content-around align-items-center">
+
+
+            Web I
+            <span class="tiempo"></span>
+        </div>
+
+        <nav id="usuario" class="navbar navbar-expand-lg navbar-dark ">
+            <a class="navbar-brand" href="#"> <img src="/imagenes/usuario.png" alt="">
+            </a>
+        </nav>
+    </nav>
+    <br>
+    <!--fin del header-->
+
+    
+        
+        <!--ejemplo de carousell-->
+  <main id="main">
+    <div id="carousel" class="carousel carousel-fade" data-ride="carousel" data-pause="false">
+        <h1>Reproductor de Música</h1>
+
+      <div class="carousel-inner text-enigma">
+        <div class="carousel-item active">
+            <div class="album-cover">
+                <img src="/imagenes/imagen principal.jpg" alt="imagen principal" width="350px">
+            </div>
+        
+          <p id="text-enigma">The time is always right to do what is rigth.</p>
+        </div>
+        <div class="carousel-item">
+            <div class="album-cover">
+          <img class="d-block w-100" src="./imagenes/imagen secundaria.jpg" alt="imagen secundaria" width="350px">
+        </div>
+          
+          <p id="text-enigma">Never give up</p>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./imagenes/imagen tercera.jpg" alt="imagen 3" width="350px">
+          
+          <p id="text-enigma">"Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.</p>
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="./imagenes/imagen 4.jpg" alt="imagen 4" width="350px">
+            
+            <p id="text-enigma">"Life's most persistent and urgent question is, 'What are you doing for others?'"</p>
+          </div>
+        
+        <div class="overlay">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </main><br>
+
+  <!--fin de carrousel-->
+        <audio id="reproductorAudio" controls></audio>
+        <ul id="listaCanciones">
+            <li data-src="temas/y2mate.com - Billie Eilish  xanny.mp3">xanny</li>
+            <li data-src="temas/y2mate.com - Eminem  Lose Yourself HD.mp3">lose yourself</li>
+            <li data-src="temas/y2mate.com - Billie Eilish  What Was I Made For Live from Lollapalooza Chicago 2023.mp3">what was i made for</li>
+        </ul>
+    </div>
+
+    <script src="funciones.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
